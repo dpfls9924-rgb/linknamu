@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f7f7f2;
+  --foreground: #1c211b;
+  --card: #ffffff;
+  --border: #dfe2d8;
+  --muted: #5d665a;
+  --accent: #2f7d4f;
+  color-scheme: light;
+}
+
+.dark {
+  --background: #10140f;
+  --foreground: #ecefe8;
+  --card: #1a1f18;
+  --border: #30372d;
+  --muted: #a3ad9e;
+  --accent: #6cc48f;
+  color-scheme: dark;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-geist-sans), system-ui, -apple-system,
+    "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+}
